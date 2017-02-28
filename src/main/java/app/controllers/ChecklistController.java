@@ -4,6 +4,7 @@ import app.models.Checklist;
 import app.models.Person;
 import app.util.JsonHelper;
 import org.javalite.activejdbc.LazyList;
+import org.javalite.activeweb.annotations.OPTIONS;
 import org.javalite.activeweb.annotations.RESTful;
 import org.javalite.common.Util;
 
@@ -18,13 +19,14 @@ import java.util.Map;
 @SuppressWarnings("unchecked")
 public class ChecklistController extends APIController {
 
+    @OPTIONS
     public void index() {
         LazyList<Checklist> cs = Checklist.findAll()
                 .include(Person.class)
                 .orderBy("id");
 
         assign("checklist", cs);
-        render().contentType("application/json");
+        render().header("Access-Control-Allow-Origin", "*").contentType("application/json");
     }
 
     public void show() {
