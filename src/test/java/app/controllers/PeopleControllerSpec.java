@@ -67,7 +67,7 @@ public class PeopleControllerSpec extends DBControllerSpec {
         request().integrateViews().get("index");
         Map[] peopleMaps = JsonHelper.toMaps(responseContent());
 
-        the(peopleMaps.length).shouldBeEqual(2);
+        the(peopleMaps.length).shouldBeEqual(3);
         Map person = peopleMaps[0];
         the(person.get("first_name")).shouldBeEqual("Marylin");
         the(person.get("last_name")).shouldBeEqual("Monroe");
