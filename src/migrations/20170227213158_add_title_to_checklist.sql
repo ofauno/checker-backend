@@ -1,0 +1,1 @@
+ALTER TABLE checklists ADD title VARCHAR(128) AFTER checklist_type;
