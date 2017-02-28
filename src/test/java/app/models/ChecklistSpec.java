@@ -17,7 +17,7 @@ public class ChecklistSpec extends DBSpec {
     @Test
     public void checklist_should_be_valid() {
         Checklist ck = new Checklist();
-        ck.set("checklist_type", "public", "content", "jamon", "person_id", "1");
+        ck.set("title", "jamon", "checklist_type", "public", "content", "jamon", "person_id", "1");
         a(ck).shouldBe("valid");
     }
 }

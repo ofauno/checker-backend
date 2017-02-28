@@ -1,10 +1,12 @@
 [
   {
-    "content": "Marylin",
+    "title": "title a",
+    "content": "checklist 1",
     "checklist_type": "private"
   },
   {
-    "content": "John",
+    "title": "title b",
+    "content": "checklist 2",
     "checklist_type": "private"
   }
 ]

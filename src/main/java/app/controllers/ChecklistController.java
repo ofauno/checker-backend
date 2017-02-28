@@ -47,6 +47,7 @@ public class ChecklistController extends APIController {
     public void update() throws IOException {
         Checklist myChecklist = Checklist.findById(getId());
         myChecklist.set(
+                "title", param("title"),
                 "content", param("content"),
                 "checklist_type", param("type")).saveIt();
 
