@@ -26,7 +26,8 @@ public class ChecklistController extends APIController {
                 .orderBy("id");
 
         assign("checklist", cs);
-        render().header("Access-Control-Allow-Origin", "*").contentType("application/json");
+        render().header("Access-Control-Allow-Origin", "*")
+                .contentType("application/json");
     }
 
     public void show() {
