@@ -42,5 +42,19 @@
                 "zip": "60604"
             }
         ]
+    },
+    {
+        "first_name": "me",
+        "last_name": "jamon",
+        "addresses": [
+            {
+                "address_type": "residential",
+                "address1": "jamon st",
+                "address2": "Apt 2222",
+                "city": "denmark",
+                "state": "denmark capital",
+                "zip": "202020"
+            }
+        ]
     }
 ]
