@@ -9,8 +9,8 @@
     <name>JavaLite REST Example</name>
 
     <properties>
-        <activejdbc.version>1.4.11</activejdbc.version>
-        <activeweb.version>1.13</activeweb.version>
+        <activejdbc.version>1.4.13</activejdbc.version>
+        <activeweb.version>1.15</activeweb.version>
         <environments>development,test</environments>
     </properties>
 
