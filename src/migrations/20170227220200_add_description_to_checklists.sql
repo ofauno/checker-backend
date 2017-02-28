@@ -1,0 +1,1 @@
+ALTER TABLE checklists ADD description VARCHAR(128) AFTER content;
