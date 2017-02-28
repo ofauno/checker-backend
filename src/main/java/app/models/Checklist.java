@@ -11,7 +11,7 @@ import java.util.List;
 @BelongsTo(parent = Person.class, foreignKeyName = "person_id")
 public class Checklist extends Model {
     static {
-        validatePresenceOf("title", "content", "checklist_type");
+        validatePresenceOf("title", "content", "description", "checklist_type");
     }
 
     public List<Person> getPerson(){

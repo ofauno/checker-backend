@@ -1,4 +1,6 @@
 {
 "id" : ${checklist.id},
-"content" : "${checklist.content}"
+"title" : "${checklist.title}",
+"content" : "${checklist.content}",
+"description" : "${checklist.description}"
 }

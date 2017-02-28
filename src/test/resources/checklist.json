@@ -2,11 +2,13 @@
   {
     "title": "title a",
     "content": "checklist 1",
+    "description": "chingon!",
     "checklist_type": "private"
   },
   {
     "title": "title b",
     "content": "checklist 2",
-    "checklist_type": "private"
+    "description": "pinche deus!!",
+    "checklist_type": "public"
   }
 ]

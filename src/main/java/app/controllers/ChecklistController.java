@@ -49,6 +49,7 @@ public class ChecklistController extends APIController {
         myChecklist.set(
                 "title", param("title"),
                 "content", param("content"),
+                "description", param("description"),
                 "checklist_type", param("type")).saveIt();
 
         String msg = "successfully updated checklist: " + getId() + " - " + params().toString();
