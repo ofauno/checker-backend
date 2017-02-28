@@ -1,5 +1,5 @@
 CREATE TABLE people (
-  id  int(11) DEFAULT NULL auto_increment PRIMARY KEY,
+  id  int(11) auto_increment PRIMARY KEY,
   first_name VARCHAR(128),
   last_name VARCHAR(128),
   created_at DATETIME,

@@ -1,5 +1,5 @@
 CREATE TABLE addresses (
-  id  int(11) DEFAULT NULL auto_increment PRIMARY KEY,
+  id  int(11) auto_increment PRIMARY KEY,
   address_type VARCHAR(128),
   address1 VARCHAR(128),
   address2 VARCHAR(128),
