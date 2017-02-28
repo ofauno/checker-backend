@@ -20,6 +20,12 @@ Running is the same as any other Java app:
 mvn jetty:run
 ```
 
+### reset DB
+
+```
+mvn db-migrator:reset -Denvironments=development
+```
+
 and then navigating to [http://localhost:8080/people](http://localhost:8080/people).
 
 ### (SEED) Posting new JSON document
